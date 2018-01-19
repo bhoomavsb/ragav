@@ -2,16 +2,16 @@
  
 int main(void) 
 {
-int array[100],max,size,c,loc=1;
+int array[100],min,size,c,loc=1;
 scanf("%d",&size);
 for(c=0;c<size;c++)
 scanf("%d",&array[c]);
-max=array[0];
+min=array[0];
 for(c=1;c<size;c++)
 {
-	if(array[c]>max)
+	if(array[c]<min)
 	{
-		max=array[i];
+		min=array[i];
 		loc=c+1;
 	}
 }
