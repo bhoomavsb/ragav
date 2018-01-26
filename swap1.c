@@ -2,16 +2,16 @@
 
 int main(void) 
 {
-	int n1,n2,tem;
+	int m,n,tem;
 	printf("enter the number:");
-	scanf("%d %d",&n1,&n2);
-	printf("first number:%d and second number:%d",n1,n2);
+	scanf("%d %d",&m,&n);
+	printf("first number:%d and second number:%d",m,n);
 
-	tem=n1;
-	n1=n2;
-	n2=tem;
+	tem=m;
+	m=n;
+	n=tem;
 printf("after swap");
-printf("frist num:%d and second num:%d",n1,n2);
+printf("frist num:%d and second num:%d",m,n);
 	// your code goes here
 	return 0;
 }
